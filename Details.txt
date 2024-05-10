@@ -1,0 +1,20 @@
+Details on how to run the code:
+
+1)  At first it will ask the user whether it's his first time or not(press '0' if yes else press '1' ).
+
+2)  If the user enters 0 it will automatically create the required files containing the predefined inputs ie.. 10 heroes,heroines,directors, their respective ratings 
+     and five already running movies(which is fixed).
+
+3)  Then the user will be asked to enter the number of newly released movies, its cast whose ratings will be used to calculate the demand rate of the movie. 
+      If the user gives new cast as input it will be appended to the existing list and it will be given a default rating.
+
+4)  Then the user will be asked to enter the seats that are unbooked for the already five running movies for the week.
+
+5)  These unbooked seats will be used to calculate the success rates for the already running movies. 
+      The movie with the highest success rate will be alloted the maximum number of screens ie..6 , then 4,3,2,1 based on the decreasing order of priority.
+
+6)  The list will be sorted based the success rate of already running movies and demand scores of newly released movies.
+
+7)  Then in the terminal it will display the movie name with screen numbers along with the show timings(3 slots for weekdays and 5 slots for weekends).
+
+8)  When the code is executed again the user has to enter 1. The newly released movies of previous execution will be updated in the aready running movies list.
